@@ -4,7 +4,7 @@ getgenv().Setting = {
     ["Skip Race V4" HUB] = true,
     ["Misc" HUB] = {
         ["Enable Lock Bounty" HUB] = false,
-        ["Lock Bounty" HUB] = {0, 300000000},
+        ["Lock Bounty" HUB] = {0, 400000000},
         ["Hide Health" HUB] = {4500,5000},
         ["Lock Camera" HUB] = true,
         ["Enable Cam Farm" HUB] = false,
@@ -15,7 +15,7 @@ getgenv().Setting = {
     },
     ["Item" HUB] = {
         ["Melee" HUB] = {["Enable" HUB] = true,
-            ["Z" HUB] = {["Enable" HUB] = true, ["Hold Time" HUB] = 1},
+            ["Z" HUB] = {["Enable" HUB] = true, ["Hold Time" HUB] = 0.5},
             ["X" HUB] = {["Enable" HUB] = true, ["Hold Time" HUB] = 0},
             ["C" HUB] = {["Enable" HUB] = true, ["Hold Time" HUB] = 0}
         },
